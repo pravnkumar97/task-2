@@ -1,0 +1,105 @@
+IP ADDRESS 
+
+IP stands for "Internet Protocol," which is the set of rules governing the format of data sent via the internet or local network. 
+
+In essence, IP addresses are the identifier that allows information to be sent between devices on a network: they contain location information and make devices accessible for communication.
+
+An IP address is a string of numbers separated by periods. 
+
+IP addresses are expressed as a set of four numbers — an example address might be 192.158.1.38. Each number in the set can range from 0 to 255. So, the full IP addressing range goes from 0.0.0.0 to 255.255.255.255.
+
+IP addresses are not random. They are mathematically produced and allocated by the Internet Assigned Numbers Authority (IANA), a division of the Internet Corporation for Assigned Names and Numbers (ICANN).
+
+PORT
+
+A port is a virtual location where networking communication starts and ends (in a nutshell). 
+
+For a more in-depth explanation, we need to establish a little background information.
+
+There are two kinds of network ports on each computer (65,536 of each for a total of 131,082 network ports): TCP and UDP.
+
+HTTP METHODS
+
+The primary or most commonly-used HTTP methods are POST, GET, PUT, PATCH, and DELETE. 
+
+These methods correspond to create, read, update, and delete (or CRUD) operations, respectively. 
+
+HTTP Method(GET)
+
+CRUD operation: Read
+
+Entire Collection (e.g. /users):200 (OK), list of entities. Use pagination, sorting and filtering to navigate big lists.
+
+Specific Item (e.g. /users/{id}):200 (OK), single entity.
+
+404 (Not Found), if ID not found or invalid.
+
+HTTP Method(POST)
+
+CRUD operation:Create
+
+Entire Collection (e.g. /users):201 (Created), Response contains response similar to GET /user/{id} containing new ID.
+
+Specific Item (e.g. /users/{id}):not applicable
+
+HTTP Method(PATCH)
+
+CRUD operation:Update
+
+Entire Collection (e.g. /users):BATCH API
+
+Specific Item (e.g. /users/{id}):200 (OK) or 204 (No Content).
+
+404 (Not Found), if ID not found or invalid.
+
+HTTP Method(DELETE)
+
+CRUD operation:Delete
+
+Entire Collection (e.g. /users):204 (No Content).
+
+400(Bad Request) if no filter is specified.
+
+Specific Item (e.g. /users/{id}):204 (No Content).
+
+404 (Not Found), if ID not found or invalid.
+
+HTTP Method(PUT)
+
+CRUD operation:Create/Replace
+
+Entire Collection (e.g. /users):not implemented
+
+Specific Item (e.g. /users/{id}):not implemented
+
+MAC ADDRESS
+
+A MAC address (media access control address) is a 12-digit hexadecimal number assigned to each device connected to the network. 
+
+Primarily specified as a unique identifier during device manufacturing, the MAC address is often found on a device's network interface card (NIC). 
+
+A MAC address is required when trying to locate a device or when performing diagnostics on a network device.
+
+The MAC address belongs to the data link layer of the Open Systems Interconnection (OSI) model, which encapsulates the MAC address of the source and destination in the header of each data frame to ensure node-to-node communication.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
